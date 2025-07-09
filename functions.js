@@ -53,12 +53,12 @@ if (verName != null) {
 //////////////////////////////////////////////////
 
 // Display Current Year
-const u = new Date("2023"),
+const u = new Date("2025"),
       w = new Date(),
       x = u.getFullYear(),
       y = w.getFullYear(),
       copyR = "Copyright &COPY;",
-      authorName = "AMBOT",
+      authorName = "K4LM3D",
       showYear1 = `${copyR} ${x} ${authorName}`,
       showYear2 = `${copyR} ${x}-${y} ${authorName}`;
 
@@ -85,7 +85,7 @@ if (siteTheme != null) {
 //////////////////////////////////////////////////
 
 // Display more details on footer
-const footerText = "Host: Private Server"
+const footerText = "Host: Public Server"
 
 document.getElementById("moreFooterText").innerHTML = footerText.toString();
 
