@@ -28,6 +28,21 @@ document.addEventListener("mousedown", e => {
 
 //////////////////////////////////////////////////
 
+// Display Text Terminal
+const terminal1 = "kalmed",
+      terminal2 = "kaliber",
+      showTerminal1 = `${terminal1}`,
+      showTerminal2 = `@${terminal2}:~$&nbsp;ls`;
+
+if (terminal1 != null) {
+  document.getElementById("terminal1").innerHTML = showTerminal1.toString();
+  document.getElementById("terminal2").innerHTML = showTerminal2.toString();
+} else {
+  document.getElementById("terminal1").innerHTML = showTerminal1.toString();
+}
+
+//////////////////////////////////////////////////
+
 // Display Current Version
 const verStart = 1,
       verBugs = 0,
